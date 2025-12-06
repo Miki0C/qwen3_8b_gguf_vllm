@@ -1,0 +1,15 @@
+[project]
+name = "sdsc3001-benchmark-reliability"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autoawq>=0.2.9",
+    "chardet>=5.2.0",
+    "datasets>=4.1.1",
+    "psutil>=7.1.0",
+    "sentence-transformers>=5.1.1",
+    "torch==2.6.0",
+    "transformers==4.51.3",
+]

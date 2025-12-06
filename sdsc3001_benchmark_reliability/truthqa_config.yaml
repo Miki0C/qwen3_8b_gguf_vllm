@@ -1,0 +1,16 @@
+model:
+  path: "/home/mkchua2/Miki/SDSC3001/Qwen3_8B_gguf"      # Required: Local path or HF repo ID
+  name: "Qwen3_8B"           # Optional: Display name for the model
+  use_awq: false                      # Optional: Use AWQ quantization
+  enable_reasoning: false             # Optional: Enable Chain-of-Thought reasoning
+
+generation:
+  n_generations: 3                    # Number of responses per prompt
+  temperature: 0.7                    # Sampling temperature
+
+dataset:
+  sample_size: 50                     # Number of prompts to evaluate (0 for all)
+
+output:
+  results_dir: "results"              # Directory for output files
+  save_generations: true              # Save raw generations
