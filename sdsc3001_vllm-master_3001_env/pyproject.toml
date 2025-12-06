@@ -1,0 +1,11 @@
+[project]
+name = "sdsc3001-vllm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy<=2.2",
+    "transformers>=4.56.1",
+    "vllm<=0.10.2",
+]
